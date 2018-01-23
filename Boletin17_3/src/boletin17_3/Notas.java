@@ -21,10 +21,10 @@ public class Notas {
         }
     }
     
-    public void ordenar(int[] notas){
+    public void ordenar(int[] notas,String[] alumnos){
         for(int i=0;i<notas.length;i++){
             Arrays.sort(notas);
-            System.out.println(notas[i]);
+            System.out.println(alumnos[i]+" : "+notas[i]);
         }
         
     }
